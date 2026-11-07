@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.env
+.env.*
+*.pem
+*.key
+*.sqlite
+*.sqlite-*
+*.db
+cookies*.json
+credentials*.json
+node_modules/
+outputs/
+work/

@@ -1,0 +1,16 @@
+{
+  "status": "待填模板，无真实统计值",
+  "question": "两组评论讨论主题有哪些差异？",
+  "sources": [],
+  "collected_at": null,
+  "inclusion_rule": null,
+  "samples": [
+    {"id": "A", "window": null, "raw_comments": null, "unique_comments": null},
+    {"id": "B", "window": null, "raw_comments": null, "unique_comments": null}
+  ],
+  "text_processing": {"dedupe_key": null, "tokenizer": null, "stopword_version": null, "alias_dictionary": null},
+  "metric": {"definition": null, "unit": null, "denominator": null},
+  "comparison": {"shared_vocabulary": null, "shared_scale": null, "sample_size_handling": null},
+  "design": {"layout_recipe": "证据表＋主题区", "surface": "1080x1440轮播", "style": "retro-desktop"},
+  "review": {"source_coverage": "待检查", "recalculation": "待检查", "mobile_render": "待检查", "human_reading_test": "未进行"}
+}

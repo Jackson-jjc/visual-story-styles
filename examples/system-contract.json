@@ -1,0 +1,18 @@
+{
+  "status": "演示配置；尺寸为起点，需实际渲染检查",
+  "style": "retro-desktop",
+  "reader_task": "比较三篇内容在相同窗口的收藏数",
+  "concept": "有秩序的档案检索与个性化创作材料",
+  "canvas": {"width": 1080, "height": 1440, "safe_margin": 64},
+  "tokens": {
+    "background": "#C1E4EB", "paper": "#FFFBEE", "ink": "#15264B",
+    "interface_accent": "#1235BD", "category_colors": {},
+    "title_px": 68, "body_px": 44, "source_px": 30,
+    "font_roles": {"title": "可用的中文粗体", "body": "可用的中文无衬线", "index": "短等宽索引"}
+  },
+  "page_roles": ["主题入口", "证据比较", "复用方法"],
+  "data_input": "brief.json",
+  "fact_invariants": ["虚构演示标识可见", "A=12,B=8,C=5", "各篇发布后72小时", "单位为次收藏"],
+  "visual_checks": ["标题和照片各有连续空间", "图表标签与来源可读", "类别含义跨页一致"],
+  "reuse_test": {"change": "将示例A换为更长的中文标题", "status": "待实际渲染"}
+}

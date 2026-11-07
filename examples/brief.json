@@ -1,0 +1,19 @@
+{
+  "status": "演示输入，全部数值虚构，仅供布局与复算练习",
+  "audience": "已经用AI制作图文、希望改善信息组织的内容创作者",
+  "task": "把三篇内容的收藏数做成一页容易比较的图，解释选择理由",
+  "style": "retro-desktop",
+  "canvas": {"width": 1080, "height": 1440},
+  "data": [
+    {"note": "示例A", "saves": 12},
+    {"note": "示例B", "saves": 8},
+    {"note": "示例C", "saves": 5}
+  ],
+  "unit": "次收藏",
+  "window": "各篇发布后72小时的虚构演示值",
+  "available_fields": ["note", "saves"],
+  "missing_fields": ["views", "unique_users", "revenue"],
+  "photos": [],
+  "output": ["一页图", "可编辑源文件", "选图理由", "复用说明"],
+  "visible_label": "虚构演示数据"
+}
