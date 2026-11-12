@@ -1,15 +1,13 @@
-![Visual Story Styles · Jackson](assets/visual-story-styles.svg)
+# Visual Story Styles
 
-# Visual Story Styles｜图文设计手册
+| [因为王俊凯，你会多看这双回力一眼吗？](examples/warrior-case.md) | [张元英对 IVE 有多重要？](examples/ive-case.md) |
+| :--- | :--- |
+| [![王俊凯坐着穿黑米厚底回力的原版封面](examples/portfolio/karry-cover.jpg)](examples/portfolio/karry-cover.jpg) | [![张元英肖像与 IVE 档案窗口的原版封面](examples/portfolio/wonyoung-cover.jpg)](examples/portfolio/wonyoung-cover.jpg) |
+| **时尚拼贴** · 从一张代言照，追到脚上那双鞋。[翻看内页](examples/warrior-case.md) | **复古桌面** · 把成员数据、品牌合作和团体成绩排成一组档案。[翻看内页](examples/ive-case.md) |
 
-给做小红书轮播和公众号长文的创作者。把一份简报、几张有出处的图和一组数据交给 Agent，用这套 Skill 选版式、排图、核对读数，拿到可以继续修改的源文件。
+这两篇都是「Jackson研究一下」做过的图文。Visual Story Styles 收录了制作时用到的构图、数据图和手机排版方法。给 Agent 一份简报、一组数据和有出处的图片，就可以从下面的配方开始。
 
-**v0.5**　[开始使用](#开始使用) · [风格与方法](#风格与方法) · [王俊凯 × 回力实作](examples/warrior-case.md) · [版本记录](CHANGELOG.md)
-
-| 剪贴拼贴 · 看清物件 | 复古桌面 · 比较记录 |
-| --- | --- |
-| ![配色习作，黑鞋面和米色包边](examples/collage-study.svg) | ![虚构演示，三篇笔记收藏数为12、8、5次](examples/retro-study.svg) |
-| 产品外形、颜色或局部细节是主角。[看配方](references/collage.md) | 把档案、时间和数字排进同一阅读顺序。[看配方](references/retro-desktop.md) |
+[开始使用](#开始使用) · [风格与方法](#风格与方法) · [分场景指南](docs/usage.md) · [图片署名](RIGHTS.md)
 
 ## 开始使用
 
@@ -25,7 +23,7 @@ git clone https://github.com/Jackson-jjc/visual-story-styles.git ~/.codex/skills
 
 > 使用 $visual-story-styles，读取 Skill 目录下的 examples/brief.json。按复古桌面风格做一张收藏数对比图。请保留 72 小时、单位和虚构数据标注，导出 PNG 和可编辑 SVG，再按手机宽度检查一次。交付时告诉我替换数据的位置。
 
-打开成图，应该能读出示例 A、B、C 分别有 12、8、5 次收藏。上面的复古桌面图可以作对照。换自己的稿，只需先给读者要回答的问题、原图、数据来源和目标平台。[分场景操作指南](docs/usage.md)
+打开成图，应该能读出示例 A、B、C 分别有 12、8、5 次收藏。可以对照[可编辑的复古桌面练习图](examples/retro-study.svg)，或看[实际笔记的品牌合作页](examples/ive-case.md)。换自己的稿，只需先给读者要回答的问题、原图、数据来源和目标平台。[分场景操作指南](docs/usage.md)
 
 ## 风格与方法
 
